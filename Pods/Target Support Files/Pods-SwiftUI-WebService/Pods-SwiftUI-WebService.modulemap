@@ -1,0 +1,6 @@
+framework module Pods_SwiftUI_WebService {
+  umbrella header "Pods-SwiftUI-WebService-umbrella.h"
+
+  export *
+  module * { export * }
+}

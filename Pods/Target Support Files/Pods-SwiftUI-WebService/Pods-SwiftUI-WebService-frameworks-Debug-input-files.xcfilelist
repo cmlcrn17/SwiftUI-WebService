@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-SwiftUI-WebService/Pods-SwiftUI-WebService-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework
+${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework
+${BUILT_PRODUCTS_DIR}/StringExtensionHTML/StringExtensionHTML.framework

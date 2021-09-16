@@ -1,0 +1,24 @@
+PODS:
+  - AEXML (4.6.0)
+  - StringExtensionHTML (1.0.2)
+  - SWXMLHash (5.0.1)
+
+DEPENDENCIES:
+  - AEXML
+  - StringExtensionHTML
+  - SWXMLHash
+
+SPEC REPOS:
+  trunk:
+    - AEXML
+    - StringExtensionHTML
+    - SWXMLHash
+
+SPEC CHECKSUMS:
+  AEXML: 2fbb73d8724797ed2cde888731e176fa4d44dd83
+  StringExtensionHTML: 856dcc0c705012ae2f9c29c7413b015b82133e52
+  SWXMLHash: 9cc0c2e4807926c74377724aa8722ee5707a0485
+
+PODFILE CHECKSUM: 6ac6933ad2cd2fb09e84e51520053605960416b3
+
+COCOAPODS: 1.10.2
