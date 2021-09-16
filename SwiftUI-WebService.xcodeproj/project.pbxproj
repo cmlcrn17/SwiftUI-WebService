@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,14 @@
 		1454BADD249AAF450091E837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1454BADC249AAF450091E837 /* Assets.xcassets */; };
 		1454BAE0249AAF450091E837 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1454BADF249AAF450091E837 /* Preview Assets.xcassets */; };
 		1454BAE3249AAF450091E837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1454BAE1249AAF450091E837 /* LaunchScreen.storyboard */; };
+		85853DF626F37190009FB683 /* ResultGamification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85853DF526F37190009FB683 /* ResultGamification.swift */; };
+		85C1776126C6737400BD2FCB /* ServiceGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C1776026C6737400BD2FCB /* ServiceGame.swift */; };
+		85C1776726C68B6D00BD2FCB /* ResultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C1776626C68B6D00BD2FCB /* ResultData.swift */; };
+		D533EC0F2E3BD6FD92989A67 /* Pods_SwiftUI_WebService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA067AD1EF55539AA11EA9F /* Pods_SwiftUI_WebService.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EB11F3872501525A1DCE535 /* Pods-SwiftUI-WebService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-WebService.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-WebService/Pods-SwiftUI-WebService.release.xcconfig"; sourceTree = "<group>"; };
 		1454BAD3249AAF420091E837 /* SwiftUI-WebService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-WebService.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1454BAD6249AAF420091E837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1454BAD8249AAF420091E837 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,11 @@
 		1454BADF249AAF450091E837 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1454BAE2249AAF450091E837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1454BAE4249AAF450091E837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AB678C2694DC4512DFD9D4D /* Pods-SwiftUI-WebService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-WebService.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI-WebService/Pods-SwiftUI-WebService.debug.xcconfig"; sourceTree = "<group>"; };
+		3EA067AD1EF55539AA11EA9F /* Pods_SwiftUI_WebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_WebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85853DF526F37190009FB683 /* ResultGamification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultGamification.swift; sourceTree = "<group>"; };
+		85C1776026C6737400BD2FCB /* ServiceGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceGame.swift; sourceTree = "<group>"; };
+		85C1776626C68B6D00BD2FCB /* ResultData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D533EC0F2E3BD6FD92989A67 /* Pods_SwiftUI_WebService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FE4535179E202513066DA38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EA067AD1EF55539AA11EA9F /* Pods_SwiftUI_WebService.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1454BACA249AAF420091E837 = {
 			isa = PBXGroup;
 			children = (
 				1454BAD5249AAF420091E837 /* SwiftUI-WebService */,
 				1454BAD4249AAF420091E837 /* Products */,
+				696501B017F50BDBE57D5FE4 /* Pods */,
+				0FE4535179E202513066DA38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +77,7 @@
 		1454BAD5249AAF420091E837 /* SwiftUI-WebService */ = {
 			isa = PBXGroup;
 			children = (
+				85C1775D26C6733800BD2FCB /* Service */,
 				1454BAD6249AAF420091E837 /* AppDelegate.swift */,
 				1454BAD8249AAF420091E837 /* SceneDelegate.swift */,
 				1454BADA249AAF420091E837 /* ContentView.swift */,
@@ -75,6 +97,41 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		696501B017F50BDBE57D5FE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AB678C2694DC4512DFD9D4D /* Pods-SwiftUI-WebService.debug.xcconfig */,
+				0EB11F3872501525A1DCE535 /* Pods-SwiftUI-WebService.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		85C1775D26C6733800BD2FCB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				85C1775E26C6735600BD2FCB /* ResponseModel */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		85C1775E26C6735600BD2FCB /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+				85C1775F26C6735C00BD2FCB /* Game */,
+				85C1776026C6737400BD2FCB /* ServiceGame.swift */,
+			);
+			name = ResponseModel;
+			sourceTree = "<group>";
+		};
+		85C1775F26C6735C00BD2FCB /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				85853DF526F37190009FB683 /* ResultGamification.swift */,
+				85C1776626C68B6D00BD2FCB /* ResultData.swift */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1454BAE7249AAF450091E837 /* Build configuration list for PBXNativeTarget "SwiftUI-WebService" */;
 			buildPhases = (
+				F589815114CB4D29C4A18B88 /* [CP] Check Pods Manifest.lock */,
 				1454BACF249AAF420091E837 /* Sources */,
 				1454BAD0249AAF420091E837 /* Frameworks */,
 				1454BAD1249AAF420091E837 /* Resources */,
+				7A575F4E6C8C97F3557F02F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,6 +200,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7A575F4E6C8C97F3557F02F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-WebService/Pods-SwiftUI-WebService-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-WebService/Pods-SwiftUI-WebService-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-WebService/Pods-SwiftUI-WebService-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F589815114CB4D29C4A18B88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI-WebService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1454BACF249AAF420091E837 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -149,6 +250,9 @@
 				1454BAD7249AAF420091E837 /* AppDelegate.swift in Sources */,
 				1454BAD9249AAF420091E837 /* SceneDelegate.swift in Sources */,
 				1454BADB249AAF420091E837 /* ContentView.swift in Sources */,
+				85853DF626F37190009FB683 /* ResultGamification.swift in Sources */,
+				85C1776726C68B6D00BD2FCB /* ResultData.swift in Sources */,
+				85C1776126C6737400BD2FCB /* ServiceGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +386,7 @@
 		};
 		1454BAE8249AAF450091E837 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB678C2694DC4512DFD9D4D /* Pods-SwiftUI-WebService.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +407,7 @@
 		};
 		1454BAE9249AAF450091E837 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB11F3872501525A1DCE535 /* Pods-SwiftUI-WebService.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
